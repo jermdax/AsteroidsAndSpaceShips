@@ -14,10 +14,10 @@ public class SpriteSheet {
 	public final int SIZE;
 	public int[] pixels;
 	//public static SpriteSheet tiles =  new SpriteSheet("/textures/SpriteSheet.png",512);
-	public static SpriteSheet ship = new SpriteSheet("game/textures/SpriteSheet.png",512);
-	public static SpriteSheet space = new SpriteSheet("game/textures/SpriteSheetSpace.png",256);
-	public static SpriteSheet plasma = new SpriteSheet("game/textures/Plasma.png",64);
-	public static SpriteSheet health = new SpriteSheet("game/textures/Health.png",64);
+	public static SpriteSheet ship = new SpriteSheet("res/textures/SpriteSheet.png",512);
+	public static SpriteSheet space = new SpriteSheet("res/textures/SpriteSheetSpace.png",256);
+	public static SpriteSheet plasma = new SpriteSheet("res/textures/Plasma.png",64);
+	public static SpriteSheet health = new SpriteSheet("res/textures/Health.png",64);
 	
  	private SpriteSheet(String path, int size)
 	{

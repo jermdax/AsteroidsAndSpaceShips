@@ -76,7 +76,7 @@ public class Player extends Mob {
 		
 		try
 		{
-			image = ImageIO.read(new File("game/textures/SpriteSheetShip.png"));
+			image = ImageIO.read(new File("res/textures/SpriteSheetShip.png"));
 		}
 		catch(IOException e)
 		{
@@ -85,7 +85,7 @@ public class Player extends Mob {
 		}
 		try
 		{
-			fireImage = ImageIO.read(new File("game/textures/Fire.png"));
+			fireImage = ImageIO.read(new File("res/textures/Fire.png"));
 		}
 		catch(IOException e)
 		{
